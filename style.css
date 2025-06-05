@@ -1,0 +1,83 @@
+/* Base styles for Cyclomatic Extension website */
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #264653;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  width: 200px;
+  margin-top: 1rem;
+}
+
+.video-list {
+  list-style: none;
+  padding: 0;
+}
+
+.video-list li {
+  background: #e9ecef;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.video-list img {
+  width: 180px;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.quotes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.quotes-list li {
+  background: #e9ecef;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-left: 4px solid #2a9d8f;
+}
